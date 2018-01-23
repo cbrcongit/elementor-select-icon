@@ -1,7 +1,5 @@
 <?php
-// namespace Elementor; 
 // if ( ! defined( 'ABSPATH' ) ) exit;
-
 add_action( 'elementor/init', function() { 
 class Elementor_Control_Icon extends Elementor\Base_Control {
 	
@@ -57,11 +55,3 @@ class Elementor_Control_Icon extends Elementor\Base_Control {
 add_action('elementor/controls/controls_registered', function($el) {
 	$el->register_control('icon', new Elementor_Control_Icon);
 });
-
-// // Enqueueing Frontend stylesheet and scripts.
-// add_action( 'elementor/editor/after_enqueue_scripts', function() {
-//     wp_enqueue_style('font-awesome', get_template_directory_uri() . '/css/font-awesome.css');
-// });
-// add_action( 'elementor/editor/after_enqueue_scripts', function() {
-//     wp_enqueue_style('icons', PLUG_PATH . '/icons/icons.css');
-// });
