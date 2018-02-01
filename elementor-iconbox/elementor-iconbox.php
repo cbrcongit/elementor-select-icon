@@ -28,7 +28,8 @@ class Elementor_Control_Icon extends Elementor\Base_Control {
 	        'icon-noun_1278287' => 'weather cold',
 	        'icon-noun_977698' => 'handy',
     	];
-
+	}
+	
 	protected function get_default_settings() {
 		return [
 			'icons' => self::get_icons(),
