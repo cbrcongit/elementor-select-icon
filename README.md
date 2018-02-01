@@ -1,7 +1,7 @@
-# Raising Issues
+### Raising Issues
 - Please raise any ideas, ways to add more icons, etc etc [here on the original thread](https://github.com/pojome/elementor/issues/110)
 
-### What Is This Wordpress Elementor Plugin Addon?
+# What Is This Wordpress Elementor Plugin Addon?
 **Solved** IcoMoon custom icons for Elementor:
 
 1 . This is the combined issue resolution for customising icons. Hopefully Elementor dev's can pull this into their product somewhow with a better UI and less coding required, or maybe **you can make some forks of this repo with icon packs of your own to share**.
