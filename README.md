@@ -32,7 +32,7 @@ class Elementor_Control_Icon extends Elementor\Base_Control {
 	        'icon-noun_1248182' => 'name as many as you want',
 	        'icon-noun_1258170' => 'icon title',
 	    ];
-
+	}
 	protected function get_default_settings() {
 		return [
 			'icons' => self::get_icons(),
